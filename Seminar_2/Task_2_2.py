@@ -11,8 +11,15 @@
 # print(result)
 # print(dict(result))
 
-number = input("Введите число N: ")
-result = dict()
-for i in range(1, int(number)+1):    
-    result[i] = 3*i + 1
-print(result)
+# 2 способ
+# number = input("Введите число N: ")
+# result = dict()
+# for i in range(1, int(number)+1):    
+#     result[i] = 3*i + 1
+# print(result)
+
+n = int(input())
+d = {}
+for i in range(1, n + 1):
+d[i] = 3 * i + 1
+print(d)

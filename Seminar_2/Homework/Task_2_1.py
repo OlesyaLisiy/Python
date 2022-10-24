@@ -20,3 +20,8 @@ if number_after_check.isdigit():
     print(f'Сумма цифр введенного Вами числа равна {result}')
 else:
     print('Число введено некорректно')
+
+# number = float(input('Введите вещественное число '))
+# while not number.is_integer():
+#     number *=10
+#     print(number)
